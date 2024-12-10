@@ -1,0 +1,12 @@
+@mixin rounded {
+    border-radius: 4px;
+}
+
+@mixin Border-Template {
+    border: black solid 2px;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+}

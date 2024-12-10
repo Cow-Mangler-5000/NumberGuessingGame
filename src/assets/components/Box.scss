@@ -1,0 +1,16 @@
+@use './SCSS/mixin' as mx;
+
+.Container {
+    text-align: center;
+    @include mx.center();
+    height: 550px;
+    align-items: center;
+    flex-direction: column;
+
+    .Box {
+        box-shadow: 5px 5px 15px black;
+        padding: 10px;
+        @include mx.Border-Template();
+        @include mx.rounded();
+    }
+}

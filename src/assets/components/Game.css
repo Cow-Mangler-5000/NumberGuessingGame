@@ -1,0 +1,23 @@
+#label, #Input, #submitBoxButton {
+  margin: 20px;
+}
+
+#Input {
+  text-align: center;
+}
+
+button {
+  letter-spacing: 2px;
+  border: black solid 2px;
+  border-radius: 4px;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  font-size: medium;
+  transition: 100ms;
+}
+
+button:not(:hover) {
+  transition: 100ms;
+}/*# sourceMappingURL=Game.css.map */

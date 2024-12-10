@@ -1,0 +1,25 @@
+@use './SCSS/mixin' as mx;
+
+#label, #Input, #submitBoxButton {
+    margin: 20px;
+}
+
+#Input {
+    text-align: center;
+}
+
+button {
+    letter-spacing: 2px;
+    @include mx.Border-Template();
+    @include mx.rounded();
+}
+
+button:hover {
+    letter-spacing: 3px;
+    font-size: medium;
+    transition: 100ms;
+}
+
+button:not(:hover) {
+    transition: 100ms;
+}
